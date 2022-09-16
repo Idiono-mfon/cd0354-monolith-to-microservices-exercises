@@ -15,8 +15,7 @@ spec:
         app: my-app
     spec:
       containers:
-      - name: simple-node
-        image: YOUR_DOCKER_HUB/simple-node
-        ports:
-        - containerPort: 80
-
+        - name: simple-node
+          image: idysman/simple-node
+          ports:
+            - containerPort: 80

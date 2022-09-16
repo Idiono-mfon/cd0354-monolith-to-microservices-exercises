@@ -6,8 +6,8 @@ metadata:
     run: my-app
 spec:
   ports:
-  - port: 80
-    protocol: TCP
+    - port: 80
+      protocol: TCP
+      targetPort: 8080
   selector:
     run: my-app
-
